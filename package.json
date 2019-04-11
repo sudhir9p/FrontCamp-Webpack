@@ -1,0 +1,16 @@
+{
+  "name": "FrontCamp-Babel",
+  "version": "",
+  "scripts": {
+    "build": "babel newsapp.js --out-file bundle.js"
+  },
+  "description": "1.Used ES6 Fetch",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
