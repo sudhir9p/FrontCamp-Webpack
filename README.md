@@ -3,6 +3,6 @@
 
 1.Configured babel Compilation
 
-2.Made app to work in IE11 even though babel compiler isn't support few syntax for IE11 by adding polyfills
+2.Used Webpack Config with Babel Loader and Style Loader.
 
-3.Used Async Await of ES2016
+3.Code Splitting and running in dev and prod modes.
