@@ -3,6 +3,8 @@
 
 1.Configured babel Compilation
 
-2.Used Webpack Config with Babel Loader and Style Loader.
+2.Integarted Babel with webpack.
 
-3.Code Splitting and running in dev and prod modes.
+3.Used WebPack Loader with Style Loader
+
+4.Used HTML Webpack plugin for generating production build folder.
