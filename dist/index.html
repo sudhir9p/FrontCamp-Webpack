@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <h1>News Channels</h1>
+
+    <select id="ddlchannelslist" ></select>
+
+    <div id="newsFeedData">
+        <h2>Details :</h2>
+        <div><strong>Category :</strong> <label id="selectedSourceName"></label></div>
+        <div><strong>Country :</strong> <label id="selectedSourceCountry"></label></div>
+        <div><strong>Description :</strong> <label id="selectedSourcedescription"></label></div>
+        <div><strong>Language :</strong> <label id="selectedSourceLanguage"></label></div>
+        <div><strong>Url :</strong> <a id="selectedSourceUrl"></a></div>
+        <div>
+            <button id="getTopHeadLines">Get Top Head Lines for this channel</button>
+        </div>
+    </div>
+    <div style="height:30px"></div>
+    <div id="topHeadlines">
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+    <script src="dist/main.js"></script>
+
+<script type="text/javascript" src="main.js?f87f98047df84f0ea3eb"></script></body>
+
+</html>

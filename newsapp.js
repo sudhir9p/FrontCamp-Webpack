@@ -1,6 +1,7 @@
 import "es6-promise/auto";
 import 'isomorphic-fetch';
 import '@babel/polyfill';
+import './styles.css';
 
 //Common class to do API calls.
 class FetchNewsData {
