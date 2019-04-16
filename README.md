@@ -1,4 +1,4 @@
-# Front Camp Babel and ES2016+ Features HomeWork.
+# Front Camp Webpack Homework.
 
 
 1.Configured babel Compilation

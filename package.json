@@ -1,16 +1,25 @@
 {
-  "name": "FrontCamp-Babel",
+  "name": "frontcamp-webpack",
   "version": "",
   "scripts": {
-    "build": "babel newsapp.js --out-file bundle.js"
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
+    "serve": "node_modules/.bin/webpack -w"
   },
-  "description": "1.Used ES6 Fetch",
+  "main": "newsapp.js",
+  "description": "Webpack Basic",
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
-    "babel": "^6.23.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "es6-promise": "^4.2.6",
+    "isomorphic-fetch": "^2.2.1",
+    "webpack": "4.28.4",
+    "webpack-cli": "3.2.1"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.4.3"
   }
 }

@@ -10,7 +10,7 @@
 
     <h1>News Channels</h1>
 
-    <select id="ddlchannelslist" onchange="channelsOnchange()"></select>
+    <select id="ddlchannelslist" ></select>
 
     <div id="newsFeedData">
         <h2>Details :</h2>
@@ -20,7 +20,7 @@
         <div><strong>Language :</strong> <label id="selectedSourceLanguage"></label></div>
         <div><strong>Url :</strong> <a id="selectedSourceUrl"></a></div>
         <div>
-            <button onclick="getTopHeadLines()">Get Top Head Lines for this channel</button>
+            <button id="getTopHeadLines">Get Top Head Lines for this channel</button>
         </div>
     </div>
     <div style="height:30px"></div>
@@ -31,7 +31,7 @@
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
-    <script src="bundle.js"></script>
+    <script src="dist/main.js"></script>
 
 </body>
 
