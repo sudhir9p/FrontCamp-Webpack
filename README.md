@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 # Front Camp Webpack Homework.
 
 
